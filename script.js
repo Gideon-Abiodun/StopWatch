@@ -35,25 +35,11 @@ startBtn.addEventListener("click", () => {
   timer = setInterval(stopwatch, 1000);
 });
 
-//    function watchstart(){
-//     if(timer!== null)
-//     {
-//         clearInterval(timer);
-//     }
-//     timer = setInterval(stopwatch,1000);
-// };
-
-
 // Stop Function
 
 stopBtn.addEventListener("click", ()=>{
     clearInterval(timer);
 })
-
-// function watchstop() {
-//   clearInterval(timer);
-// }
-
 
 // Reset Function
 
@@ -62,9 +48,3 @@ resetBtn.addEventListener("click", ()=>{
   [seconds, minutes, hours] = [0, 0, 0];
   displayTime.innerHTML = "00:00:00";
 });
-
-// function watchReset() {
-//   clearInterval(timer);
-//   [seconds, minutes, hours] = [0, 0, 0];
-//   displayTime.innerHTML = "00:00:00";
-// }
