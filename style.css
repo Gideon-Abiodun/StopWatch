@@ -1,63 +1,63 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .main-body {
-    background: #ffffff;
-    font-family: 'Courier New', Courier, monospace;
+  background: #ffffff;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .stopwatch {
-    width: 90%;
-    max-width: 600px;
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+  width: 90%;
+  max-width: 600px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url(./images/Cars-and-Coffee-Alexandria-LA.jpeg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    text-align: center;
-    padding: 40px 0;
-    color: #fff;
-    margin: 200px auto 0;
-    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
-    border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 40px 0;
+  color: #fff;
+  margin: 200px auto 0;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 }
 
 .stopwatch .counter {
-    margin: 20px 0;
-    font-size: 64px;
-    font-weight: 300;
+  margin: 20px 0;
+  font-size: 64px;
+  font-weight: 300;
 }
 
 .buttons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .buttons .images {
-    width: 50px;
-    margin: 0 20px;
-    cursor: pointer;
+  width: 50px;
+  margin: 0 20px;
+  cursor: pointer;
 }
 
 #playbtn {
-    width: 80px;
+  width: 80px;
 }
 
 @media screen and (max-width: 600px) {
-    .stopwatch .counter {
-        font-size: 44px;
-        font-weight: 500;
-    }
+  .stopwatch .counter {
+    font-size: 44px;
+    font-weight: 500;
+  }
 
-    .buttons .images {
-        width: 40px;
-    }
+  .buttons .images {
+    width: 40px;
+  }
 
-    #playbtn {
-        width: 50px;
-    }
+  #playbtn {
+    width: 50px;
+  }
 }
